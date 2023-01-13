@@ -26,7 +26,7 @@
                 ,Model
                 ,Topsnelheid
                 ,Prijs
-          FROM RichestPeople
+          FROM DureAuto
           ORDER BY Topsnelheid DESC";
 
   // Maak de sql-query gereed om te worden uitgevoerd op de database
@@ -44,10 +44,10 @@
   $rows = "";
   foreach ($result as $info) {
     $rows .= "<tr>
-                <td>$info->Name</td>
-                <td>$info->Networth</td>
-                <td>$info->Age</td>
-                <td>$info->MyCompagny</td>
+                <td>$info->Merk</td>
+                <td>$info->Model</td>
+                <td>$info->Topsnelheid</td>
+                <td>$info->Prijs</td>
                 <td>
                     <a href='delete.php?Id=$info->Id'>
                         <img src='img/b_drop.png' alt='kruis'>
