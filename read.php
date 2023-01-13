@@ -27,7 +27,7 @@
                 ,Topsnelheid
                 ,Prijs
           FROM DureAuto
-          ORDER BY Topsnelheid DESC";
+          ORDER BY Prijs DESC";
 
   // Maak de sql-query gereed om te worden uitgevoerd op de database
   $statement = $pdo->prepare($sql);
