@@ -70,14 +70,14 @@
     <title>RichestPeople</title>
 </head>
 <body>
-    <h3>De vijf rijkste mensen ter wereld</h3>
+    <h3>Een paar snelle en dure autos waat ik van mag dromen</h3>
     <table border='1'>
         <thead>
-            <th>Naam</th>
-            <th>Vermogen</th>
-            <th>Leeftijd</th>
-            <th>Bedrijf</th>
-            <th>Delete</th>
+            <th>Merk</th>
+            <th>Model</th>
+            <th>Topsnelheid</th>
+            <th>Prijs</th>
+            <th>Verwijder</th>
         </thead>
         <tbody>
             <?= $rows; ?>
