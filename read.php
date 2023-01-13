@@ -38,6 +38,16 @@
   // Zet het resultaat in een array met daarin de objecten (records uit de tabel Persoon)
   $result = $statement->fetchAll(PDO::FETCH_OBJ);
 
+if ($result) {
+
+    echo "Uw bewerking is successvol voltooid!"
+    header('Refresh:3; url=read.php');
+} else {
+    echo "Er is een error opgetreden! Uw bewerking is niet voltooid!!"
+    header('Refresh:3; url=index.php');
+}
+
+
   // Even checken wat we terugkrijgen
   // var_dump($result);
 
