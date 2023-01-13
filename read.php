@@ -38,9 +38,9 @@
   // Zet het resultaat in een array met daarin de objecten (records uit de tabel Persoon)
   $result = $statement->fetchAll(PDO::FETCH_OBJ);
 
+  
 
-
-  // Even checken wat we terugkrijgen
+  
   // var_dump($result);
 
   $rows = "";
