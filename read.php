@@ -40,10 +40,10 @@
 
 if ($result) {
 
-    echo "Uw bewerking is successvol voltooid!"
+    echo "Uw bewerking is successvol voltooid!";
     header('Refresh:3; url=read.php');
 } else {
-    echo "Er is een error opgetreden! Uw bewerking is niet voltooid!!"
+    echo "Er is een error opgetreden! Uw bewerking is niet voltooid!!";
     header('Refresh:3; url=index.php');
 }
 
