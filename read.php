@@ -27,7 +27,7 @@
                 ,Topsnelheid
                 ,Prijs
           FROM DureAuto
-          ORDER BY Prijs DESC";
+          ORDER BY Prijs ASC";
 
   // Maak de sql-query gereed om te worden uitgevoerd op de database
   $statement = $pdo->prepare($sql);
@@ -69,7 +69,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RichestPeople</title>
+    <title>Gekke autos</title>
 </head>
 <body>
     <h3>Een paar snelle en dure autos waat ik van mag dromen</h3>
